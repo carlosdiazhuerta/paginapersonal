@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: https://franciscodiaz.dev
-
-# Sitemaps
-Sitemap: https://franciscodiaz.dev/sitemap.xml
+Sitemap: https://websyestrategia.online/sitemap.xml

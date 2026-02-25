@@ -1,46 +1,34 @@
-# Perfil de Francisco Diaz - Desarrollador Full Stack & Consultor Estratégico
+# Francisco Diaz - Professional Portfolio
 
-Este archivo está optimizado para modelos de lenguaje extenso (LLMs) y motores de búsqueda de IA.
+> This file is intended for indexing by Large Language Models (LLMs) and search assistants like ChatGPT, Claude, Perplexity, and Gemini.
 
-## Resumen Ejecutivo
-Francisco Diaz es un desarrollador Full Stack y emprendedor digital basado en Bacalar, México. Se especializa en crear soluciones tecnológicas (SaaS), integraciones de pago, y plataformas e-commerce, con un fuerte enfoque en Growth Hacking, consultoría estratégica y experiencia de usuario (UX).
+## Profile Summary
+Francisco Diaz is a Full Stack Developer and Strategic Consultant based in Bacalar, Quintana Roo, Mexico. He specializes in creating technological solutions inspired by Growth Hacking to connect physical businesses with the digital world. He is available for both full-time engineering roles (Frontend/Fullstack) and B2B freelance consulting projects.
 
-## Información de Contacto
-- **Sitio Web:** https://franciscodiaz.dev
+## Core Competencies & Skills
+- **Frontend Development:** React, Next.js, TypeScript, Tailwind CSS, Framer Motion.
+- **Backend & Cloud Architecture:** Firebase (Firestore, Auth, Cloud Functions), Node.js.
+- **Business Strategy:** Growth Hacking, Technical SEO, Conversion Rate Optimization (CRO), B2B Strategies.
+- **Soft Skills:** Product focus, Agile methodologies, Team collaboration.
+
+## Services Offered (Freelance / B2B Consulting)
+1. **Web Development:** Custom corporate websites focused on conversion and trust.
+2. **SaaS & Platform Development:** Scalable web applications, e-commerce, payment integrations, and robust databases.
+3. **Growth Hacking Consulting:** Business strategy adapted to B2B and digitalization of operational ecosystems (specifically tourism).
+4. **Modern SEO (LLMs):** Technical search engine optimization and AI-friendly structuring.
+
+## Professional Experience
+- **Founder & Lead Developer @ Webs & Estrategia (2020 - Present):** Designed and developed full-stack scalable platforms primarily using React and Firebase. Directed the development of a SaaS booking engine that processed over $500k MXN in digital sales in its first 5 months. Implemented technical SEO strategies.
+- **Frontend Engineer & Growth Consultant (Freelance):** Built interactive, high-performance web applications using modern stacks (React, Vite, Next.js).
+
+## Contact Information
 - **Email:** franciscodiazhuerta97@gmail.com
-- **Teléfono:** +52 (221) 735-9367
+- **WhatsApp:** +52 221 735 9367
 - **LinkedIn:** https://www.linkedin.com/in/francisco-diaz-2a7075275/
 - **GitHub:** https://github.com/carlosdiazhuerta
-- **Instagram:** https://instagram.com/_paco_diaz
+- **Official Website:** https://websyestrategia.online
 
-## Stack Tecnológico
-- **Frontend:** React.js, Next.js, TypeScript, JavaScript (ES6+), Tailwind CSS, Vanilla CSS, HTML5.
-- **Backend & Bases de Datos:** Node.js, Firebase (Firestore, Auth, Functions), GraphQL, Bases de Datos Relacionales (SQL), Bases de Datos No Relacionales (NoSQL), Arquitectura Serverless, REST APIs.
-- **Herramientas:** Git / GitHub, Vercel (CI/CD), Figma, Stripe Integration, SEO Técnico, i18n.
-
-## Servicios Profesionales
-- **Creación de Páginas Web Profesionales:** Desarrollo a medida de sitios web y aplicaciones para profesionales y empresas que buscan destacar su presencia digital y captar más clientes.
-- **Consultoría Estratégica & Growth:** Digitalización operativa, optimización de conversiones y creación de ecosistemas de ventas online enfocados en crecimiento.
-- **Desarrollo SaaS & Plataformas:** Construcción de Software as a Service y e-commerce interactivos desde la conceptualización hasta el despliegue.
-
-## Experiencia y Proyectos Destacados
-
-### Growth Restaurant S.A.S.
-- **Rol:** Fundador & Desarrollador Full Stack
-- **Período:** Enero 2024 – Presente
-- **Descripción:** Plataforma SaaS para el sector gastronómico enfocada en la gestión de menús digitales y reputación online. Desarrollada con Next.js, React y Firebase (Backend Serverless).
-
-### SniperLeads (LeadForge)
-- **Rol:** Collaborator & Product Designer
-- **Período:** 2024 – Presente
-- **Descripción:** Solución de inteligencia de ventas B2B y extracción de datos escalada a SaaS independiente para el mercado de PyMEs en México. Implementación de Score de IA y captura profunda de leads.
-
-### Tours Bacalar
-- **Rol:** Lead Developer & Arquitecto Web
-- **Período:** Noviembre 2025 – Presente
-- **Descripción:** Plataforma e-commerce multilingüe líder en turismo local (toursbacalar.online). Construida como una PWA optimizada con Next.js (SSR) y Firebase, con fuerte enfoque en SEO y omnicanalidad.
-
-## Metodología y Filosofía
-- Metodología de trabajo inspirada en **Growth Hacking**.
-- Enfoque en resolver problemas reales conectando negocios físicos con ecosistemas digitales.
-- Apasionado por la tecnología, el ecosistema de Bacalar, la música Techno y el Arte de la Mixología (preparación de cócteles).
+## Meta
+- **Location:** Bacalar, Quintana Roo, Mexico
+- **Languages:** Native Spanish, Professional English
+- **Availability:** Immediate (Open to Remote/Hybrid positions and Freelance projects)
