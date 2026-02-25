@@ -1,0 +1,122 @@
+.experience-section {
+    position: relative;
+    z-index: 1;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.experience-card {
+    padding: 2.5rem;
+    transition: all var(--transition-normal);
+    position: relative;
+    border-left: 4px solid var(--accent-caribbean);
+}
+
+.experience-card:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 30px rgba(0, 210, 255, 0.15);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.exp-title {
+    font-size: 1.8rem;
+    color: var(--accent-neon);
+    margin-bottom: 0.25rem;
+}
+
+.exp-role {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.exp-period {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.exp-description {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.exp-achievements {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+.exp-achievements li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.exp-achievements li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--accent-caribbean);
+    font-weight: bold;
+}
+
+.exp-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    border-top: 1px solid var(--glass-border);
+    padding-top: 1.5rem;
+}
+
+.exp-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.tech-tag {
+    background: rgba(0, 210, 255, 0.1);
+    color: var(--accent-caribbean);
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+}
+
+.exp-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .experience-card {
+        padding: 1.5rem;
+    }
+}

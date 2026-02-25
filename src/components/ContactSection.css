@@ -1,0 +1,112 @@
+.contact-section {
+    background: var(--bg-secondary);
+    padding-bottom: 0;
+    position: relative;
+}
+
+.contact-card {
+    padding: 4rem 2rem;
+    border-radius: var(--border-radius-lg);
+    max-width: 900px;
+    margin: 0 auto 4rem auto;
+    border-top: 2px solid var(--accent-neon);
+}
+
+.contact-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 1.5rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-subtitle {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+    line-height: 1.6;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius);
+    min-width: 250px;
+}
+
+.contact-item:hover {
+    background: rgba(255, 0, 127, 0.05);
+    border-color: rgba(255, 0, 127, 0.3);
+}
+
+.contact-icon {
+    font-size: 2rem;
+    color: var(--accent-neon);
+}
+
+.contact-item span {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    transition: all var(--transition-fast);
+}
+
+.social-icon:hover {
+    background: var(--accent-gradient);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 210, 255, 0.3);
+}
+
+.footer {
+    padding: 2rem 0;
+    background: var(--bg-primary);
+    border-top: 1px solid var(--glass-border);
+}
+
+.footer p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.author-note {
+    margin-top: 0.5rem;
+    font-size: 0.85rem !important;
+    color: var(--accent-caribbean) !important;
+}
+
+@media (max-width: 768px) {
+    .contact-card {
+        padding: 3rem 1.5rem;
+    }
+}
