@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "deploy": "landingpersonal-ea3d8",
+    "default": "landingpersonal-ea3d8"
+  },
+  "targets": {},
+  "etags": {}
+}
