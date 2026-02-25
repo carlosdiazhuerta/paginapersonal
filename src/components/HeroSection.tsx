@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
-                    >Desarrollador y Emprendedor Digital</motion.h2>
+                    >Desarrollador y Emprendedor Digital.</motion.h2>
 
                     <motion.p
                         className="text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto lg:mx-0"
