@@ -33,7 +33,7 @@
 }
 
 .exp-title {
-    font-size: 1.8rem;
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
     color: var(--accent-neon);
     margin-bottom: 0.25rem;
 }
@@ -110,9 +110,17 @@
 .exp-link {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     font-size: 0.9rem;
     padding: 0.6rem 1.2rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .exp-link {
+        width: auto;
+    }
 }
 
 @media (max-width: 768px) {
