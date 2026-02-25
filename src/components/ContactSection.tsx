@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiMail, FiLinkedin, FiGithub, FiInstagram, FiMonitor, FiCode, FiTrendingUp, FiSearch } from 'react-icons/fi';
+import { FiMail, FiLinkedin, FiGithub, FiInstagram, FiCode, FiTrendingUp } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
@@ -21,94 +21,81 @@ const ContactSection: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 via-transparent to-fuchsia-500/5 pointer-events-none"></div>
 
                     <div className="text-center relative z-10">
-                        <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">Consultoría & Desarrollo estratégico</h2>
+                        <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">¿Tienes un proyecto, o un puesto vacante?</h2>
                         <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-                            Estoy disponible para nuevos retos y para digitalizar la operativa de tu ecosistema. ¿En qué te puedo ayudar?
+                            Actualmente estoy abierto tanto a oportunidades como <strong className="text-white">Frontend / Fullstack Developer</strong> en empresas de producto, como a proyectos de <strong className="text-white">Consultoría & Desarrollo Freelance</strong>.
                         </p>
 
-                        {/* Services Grid */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl mx-auto mb-12 text-left">
+                        {/* Hybrid Layout: Two Columns for the two distinct paths */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12 text-left">
+
+                            {/* Path 1: Recruiter / Job Seeking */}
                             <motion.div
-                                className="bg-white/5 border border-white/10 rounded-2xl p-6 transition-all hover:bg-white/10"
-                                whileHover={{ y: -2 }}
+                                className="bg-white/5 border border-cyan-500/30 rounded-2xl p-8 transition-all hover:bg-white/10 relative overflow-hidden group"
+                                whileHover={{ y: -2, boxShadow: "0 10px 30px rgba(6, 182, 212, 0.1)" }}
                             >
-                                <div className="w-10 h-10 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-xl mb-4">
-                                    <FiMonitor />
-                                </div>
-                                <h3 className="text-white font-bold text-lg mb-2">Creación de Páginas Web</h3>
-                                <p className="text-gray-400 text-sm leading-relaxed">
-                                    Desarrollo a medida de sitios web profesionales corporativos atractivos para empresas, enfocados en proyectar confianza y captar clientes.
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-2xl group-hover:bg-cyan-500/20 transition-all"></div>
+                                <h3 className="text-white font-bold text-2xl mb-4 flex items-center gap-3">
+                                    <FiCode className="text-cyan-400" /> Reclutadores & CTOs
+                                </h3>
+                                <p className="text-gray-400 text-sm leading-relaxed mb-6">
+                                    Busco unirme a un equipo donde pueda aportar mi experiencia en React, TypeScript y Firebase para construir productos escalables y mejorar la experiencia de usuario.
                                 </p>
+                                <ul className="text-sm text-gray-300 space-y-2 mb-6 font-medium">
+                                    <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span> Disponibilidad Inmediata</li>
+                                    <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span> Remoto / Híbrido</li>
+                                    <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span> Trabajo en equipo & Metodologías Ágiles</li>
+                                </ul>
+                                <a
+                                    href="mailto:franciscodiazhuerta97@gmail.com"
+                                    className="inline-flex items-center gap-2 bg-cyan-500/20 text-cyan-400 hover:bg-cyan-500 hover:text-white px-5 py-2.5 rounded-xl transition-all font-bold text-sm w-full justify-center"
+                                >
+                                    <FiMail /> Enviar Correo
+                                </a>
                             </motion.div>
 
+                            {/* Path 2: Clients / Freelance */}
                             <motion.div
-                                className="bg-white/5 border border-white/10 rounded-2xl p-6 transition-all hover:bg-white/10"
-                                whileHover={{ y: -2 }}
+                                className="bg-white/5 border border-fuchsia-500/30 rounded-2xl p-8 transition-all hover:bg-white/10 relative overflow-hidden group"
+                                whileHover={{ y: -2, boxShadow: "0 10px 30px rgba(217, 70, 239, 0.1)" }}
                             >
-                                <div className="w-10 h-10 rounded-lg bg-fuchsia-500/20 text-fuchsia-400 flex items-center justify-center text-xl mb-4">
-                                    <FiCode />
-                                </div>
-                                <h3 className="text-white font-bold text-lg mb-2">Desarrollo SaaS & Plataformas</h3>
-                                <p className="text-gray-400 text-sm leading-relaxed">
-                                    Arquitectura escalable para aplicaciones web (SaaS), e-commerce, integraciones de pago, Módulos y bases de datos robustas (Firebase).
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-fuchsia-500/10 rounded-full blur-2xl group-hover:bg-fuchsia-500/20 transition-all"></div>
+                                <h3 className="text-white font-bold text-2xl mb-4 flex items-center gap-3">
+                                    <FiTrendingUp className="text-fuchsia-400" /> Clientes & Negocios
+                                </h3>
+                                <p className="text-gray-400 text-sm leading-relaxed mb-6">
+                                    Digitalizo la operativa de tu negocio. Desde landings enfocadas a conversión, plataformas a medida o consultoría Growth Hacking B2B.
                                 </p>
+                                <ul className="text-sm text-gray-300 space-y-2 mb-6 font-medium">
+                                    <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-fuchsia-400"></span> Web Corporativa & E-commerce</li>
+                                    <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-fuchsia-400"></span> Desarrollo de Apps (SaaS)</li>
+                                    <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-fuchsia-400"></span> SEO Técnico & Autoridad Digital</li>
+                                </ul>
+                                <a
+                                    href="https://wa.me/522217359367"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="inline-flex items-center gap-2 bg-fuchsia-500/20 text-fuchsia-400 hover:bg-fuchsia-500 hover:text-white px-5 py-2.5 rounded-xl transition-all font-bold text-sm w-full justify-center"
+                                >
+                                    <FaWhatsapp /> Agendar Consulta Gratuita
+                                </a>
                             </motion.div>
 
-                            <motion.div
-                                className="bg-white/5 border border-white/10 rounded-2xl p-6 transition-all hover:bg-white/10"
-                                whileHover={{ y: -2 }}
-                            >
-                                <div className="w-10 h-10 rounded-lg bg-green-500/20 text-green-400 flex items-center justify-center text-xl mb-4">
-                                    <FiTrendingUp />
-                                </div>
-                                <h3 className="text-white font-bold text-lg mb-2">Consultoría Growth Hacking</h3>
-                                <p className="text-gray-400 text-sm leading-relaxed">
-                                    Estrategia de negocios adaptada al entorno B2B, digitalización operativa para ecosistemas turísticos y herramientas de conversión (CRO).
-                                </p>
-                            </motion.div>
-
-                            <motion.div
-                                className="bg-white/5 border border-white/10 rounded-2xl p-6 transition-all hover:bg-white/10"
-                                whileHover={{ y: -2 }}
-                            >
-                                <div className="w-10 h-10 rounded-lg bg-yellow-500/20 text-yellow-500 flex items-center justify-center text-xl mb-4">
-                                    <FiSearch />
-                                </div>
-                                <h3 className="text-white font-bold text-lg mb-2">SEO Moderno (LLMs)</h3>
-                                <p className="text-gray-400 text-sm leading-relaxed">
-                                    Posicionamiento técnico en buscadores tradicionales y estructuración AI-friendly para aparecer en ChatGPT, Claude, Perplexity y Gemini.
-                                </p>
-                            </motion.div>
                         </div>
 
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
+                        {/* General Contact Info */}
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12 border-t border-white/10 pt-12">
                             <motion.a
                                 href="mailto:franciscodiazhuerta97@gmail.com"
-                                className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-cyan-500/50 px-6 py-4 rounded-2xl transition-all duration-300 w-full sm:w-auto overflow-hidden"
-                                whileHover={{ y: -5, boxShadow: "0 10px 30px rgba(6, 182, 212, 0.2)" }}
+                                className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 transition-all duration-300 px-6 py-3 rounded-2xl"
+                                whileHover={{ y: -2 }}
                             >
-                                <div className="w-12 h-12 shrink-0 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 text-xl group-hover:scale-110 group-hover:bg-cyan-500 group-hover:text-black transition-all">
+                                <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-gray-300 group-hover:text-white group-hover:bg-white/10 transition-all text-lg">
                                     <FiMail />
                                 </div>
-                                <div className="flex flex-col text-left overflow-hidden">
-                                    <span className="text-gray-300 group-hover:text-white font-bold">Email</span>
-                                    <span className="text-sm text-gray-400 truncate w-full" title="franciscodiazhuerta97@gmail.com">franciscodiazhuerta97@gmail.com</span>
-                                </div>
-                            </motion.a>
-
-                            <motion.a
-                                href="https://wa.me/522217359367"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#25D366]/50 px-6 py-4 rounded-2xl transition-all duration-300 w-full sm:w-auto overflow-hidden"
-                                whileHover={{ y: -5, boxShadow: "0 10px 30px rgba(37, 211, 102, 0.2)" }}
-                            >
-                                <div className="w-12 h-12 shrink-0 rounded-xl bg-[#25D366]/10 flex items-center justify-center text-[#25D366] text-xl group-hover:scale-110 group-hover:bg-[#25D366] group-hover:text-white transition-all">
-                                    <FaWhatsapp />
-                                </div>
-                                <div className="flex flex-col text-left overflow-hidden">
-                                    <span className="text-gray-300 group-hover:text-white font-bold">WhatsApp</span>
-                                    <span className="text-sm text-gray-400">+52 221 735 9367</span>
+                                <div className="flex flex-col text-left">
+                                    <span className="text-sm text-gray-400">Escríbeme un correo</span>
+                                    <span className="text-white font-medium">franciscodiazhuerta97@gmail.com</span>
                                 </div>
                             </motion.a>
                         </div>
